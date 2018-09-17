@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".view.LoginActivity">
+
+
+    <TextView
+        android:id="@+id/sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_outline_square"
+        android:drawablePadding="4dp"
+        android:padding="12dp"
+        android:paddingEnd="28dp"
+        android:paddingLeft="28dp"
+        android:paddingRight="28dp"
+        android:paddingStart="28dp"
+        android:text="@string/manual_sign_in"
+        android:textColor="@android:color/white"
+        android:visibility="gone"
+
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/login_button_fb"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_margin="12dp"
+        android:background="@drawable/white_outline_square"
+        android:drawableLeft="@drawable/com_facebook_button_icon_white"
+        android:drawablePadding="8dp"
+        android:drawableStart="@drawable/com_facebook_button_icon_white"
+        android:gravity="center"
+        android:padding="12dp"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:paddingStart="18dp"
+        android:text="@string/sign_in_with_fb"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/login_button_twitter"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/white_outline_square"
+        android:drawableLeft="@drawable/tw__composer_logo_white"
+        android:drawablePadding="8dp"
+        android:drawableStart="@drawable/tw__composer_logo_white"
+        android:gravity="center"
+        android:padding="8dp"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:paddingStart="18dp"
+        android:text="@string/sign_in_with_twitter"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:ignore="RtlSymmetry">
+
+
+    </TextView>
+
+
+</LinearLayout>

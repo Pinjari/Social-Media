@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "964990053982",
+    "firebase_url": "https://samplesocialmediaapp-9cdb6.firebaseio.com",
+    "project_id": "samplesocialmediaapp-9cdb6",
+    "storage_bucket": "samplesocialmediaapp-9cdb6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964990053982:android:f1ff2b8fd0643c98",
+        "android_client_info": {
+          "package_name": "com.welserv.samplesocialmediaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964990053982-bea4f7llo26j1nonerp970ka6cln5q9i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.welserv.samplesocialmediaapp",
+            "certificate_hash": "dc7246746b6a7ab79a8587b49ead353061d768c2"
+          }
+        },
+        {
+          "client_id": "964990053982-fchc8ep4tqb29me58l2ettsjpcchr1vp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAmtMRjxdgNCvILErv8lQ3icOcUOn2irQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964990053982-fchc8ep4tqb29me58l2ettsjpcchr1vp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
